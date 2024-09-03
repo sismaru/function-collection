@@ -88,3 +88,11 @@ window.addEventListener('load', () => {
       map.remove();
     });
   });
+
+
+  // 유의사항 토글 
+  function noticeList() {
+    $('.list-notice button').click(function(){
+        $(this).closest('.list-notice').toggleClass('on');
+    });
+}
